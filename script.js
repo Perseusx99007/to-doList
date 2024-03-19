@@ -37,7 +37,7 @@ listTask.addEventListener("click", function(check)
 
 function storeData()
 {
-    sessionStorageStorage.setItem("data", listTask.innerHTML);
+    sessionStorage.setItem("data", listTask.innerHTML);
 }
 
 function showData()
