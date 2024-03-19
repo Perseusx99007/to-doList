@@ -37,12 +37,12 @@ listTask.addEventListener("click", function(check)
 
 function storeData()
 {
-    localStorage.setItem("data", listTask.innerHTML);
+    sessionStorageStorage.setItem("data", listTask.innerHTML);
 }
 
 function showData()
 {
-    listTask.innerHTML = localStorage.getItem("data");
+    listTask.innerHTML = sessionStorage.getItem("data");
 }
 
 showData();
